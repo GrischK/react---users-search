@@ -1,7 +1,8 @@
 import React from 'react';
 
-function Search(props) {
-  const [searchValue, setSearchValue] = React.useState('');
+function Search({searchValue, setSearchValue}) {
+
+
   return (
     <div>
       <input
